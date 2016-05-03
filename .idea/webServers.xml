@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0d82a4c-229f-48e6-aa10-c808e0add2ab" name="vm1" url="http://vm1">
+        <fileTransfer host="vm1" port="22" rootFolder="/root/flaskweb" accessType="SFTP" password="dffedfdfdfd8dfc8df9adf8edf93df93" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

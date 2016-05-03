@@ -1,0 +1,9 @@
+<form method='POST' action='/'>
+	<input type="radio" name="submit" value="on">ls -l />
+	<input type="radio" name="submit" value="off">uname -a />
+    <input type="submit" name="submit" />
+	<br/>
+</form>
+
+
+http://opentechschool.github.io/python-flask/core/forms.html

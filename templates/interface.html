@@ -1,0 +1,12 @@
+{% extends 'template.html' %}
+{% block content %}
+
+<form method='POST' action='/'>
+    <select name="submit">
+        <option value="on">ls -l</option>
+        <option value="off">uname -a</option>
+    </select>
+    <input type="submit" name="submit" />
+	<br/>
+</form>
+{% endblock %}
