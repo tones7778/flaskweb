@@ -1,0 +1,18 @@
+{% extends "template.html" %}
+{% block content %}
+
+<h1>Welcome to FlaskWebApp</h1>
+<a href="/logout">Logout</a>
+<div class ="container">
+  <form method='POST' action='/tasks/'>
+    <select name="submit">
+        <option value="on">ls -l</option>
+        <option value="off">uname -a</option>
+        <option value="shell">gethostname from MON</option>
+        <option value="myping">ping yahoo</option>
+    </select>
+    <input type="submit" name="submit" />
+	<br/>
+  </form>
+</div>
+{% endblock %}
