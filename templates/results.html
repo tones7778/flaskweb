@@ -1,8 +1,10 @@
 {% extends 'template.html' %}
 {% block content %}
+<a href="/tasks/">Back</a>
     <h2>Command Results</h2>
     {% for line in results %}
     {{ line }} <br>
     {% endfor %}
+
 {% endblock %}
 

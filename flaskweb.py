@@ -47,7 +47,7 @@ def login():
 def main():
     return render_template('tasks.html')
 
-@application.route('/tasks/')
+@application.route('/tasks/',  methods=['GET', 'POST'])
 @login_required
 def index(name=''):
     if request.method == 'POST':
@@ -79,4 +79,4 @@ def index(name=''):
 
 
 if __name__ == '__main__':
-    application.run(host='0.0.0.0', debug=True)
+    application.run('0.0.0.0', debug=True)
